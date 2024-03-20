@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+<style>
+
+#goBackIcon {
+  width: 20%;
+  color: white;
+  cursor: pointer;
+}
+
+.box a {
+
+  display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.names {
+    color: white;
+    position: relative;
+    z-index: 3;
+    font-family: sm;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    
+     /* changed from inline-block */
+    /* Removed height and width */
+}
+
+.names:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+</style>
+
+
+      
+        <link href="../index.css" rel="stylesheet">
+        <title>
+            Name</title>
+    </head>
+    <body>
+        <div id="particles-js"></div>
+      
+      
+
+          </div>
+        
+        
+<div class="box">
+     
+      <a href="https://github.com/titaniumnetwork-dev" target="_blank"  class="names">Titanium Network Github</a>
+      <a href="https://github.com/tomphttp" target="_blank" class="names">TOMP HTTP Github</a>
+      <a href="https://github.com/titaniumnetwork-dev/Ultraviolet" target="_blank" class="names">UV GitHub</a>
+      <a href="https://kdoesthings.life" target="_blank"class="names">kdoesthings Game Website</a>
+      <a class="names">Frontend By kdoesthings Backend Is Ultraviolet.</a>
+      <img id="goBackIcon" src="arrow.svg"></div>
+</div> 
+<script src="uv/uv.bundle.js"></script>
+ <script src="uv/uv.config.js"></script>
+
+
+
+
+ <script src="../index.js"></script>
+ 
+ 
+ 
+ <script src="../js/particles.js"></script>
+ <script src="../js/app.js"></script>
+ <script src="../js/zoom.js"></script>
+ <script>document.getElementById('goBackIcon').addEventListener('click', function() {
+  window.history.back();
+});</script>
+      
+    </body>
+</html>

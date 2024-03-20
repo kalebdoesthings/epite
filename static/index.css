@@ -1,0 +1,169 @@
+@font-face {
+font-family: sm;
+src: url('fonts/font.otf')
+
+
+
+
+
+
+}
+
+
+
+  
+
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
+
+h1:hover {
+    
+    text-shadow: 2px 2px 4px #333; /* Adjust values and color */
+    
+}
+
+
+@keyframes underline {
+    to {
+        width: 100%;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    z-index: -99;
+    overflow: hidden;
+    
+  
+}
+
+#particles-js    {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+    position: absolute;
+    background: #0d0c0c;
+    
+}
+
+.name {
+    align-items: center;
+    
+}
+
+
+input {
+    font-size: 25px;
+    padding: 20px;
+    margin: 0;
+    z-index: 2;
+    border-radius: 50px;
+    color: #1581e6;
+    background: #0d0c0c;
+    opacity: 0.9;
+    width: 93%;
+    border: none;
+    font-family: sm;
+    text-align: left;
+
+}
+
+input::placeholder {
+    font-size: 25px;
+    padding: 20px;
+    margin: 0;
+    border-radius: 50px;
+    color: #1581e6;
+    width: 93%;
+    font-family: sm;
+    text-align: left;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%;
+    caret-color: transparent;
+    
+}
+
+
+
+
+
+
+  :root{
+    --clr1: #ff0000;
+    --clr2: #ff7300;
+    --clr3: #fffb00;  
+    --clr4: #48ff00;
+    --clr5: #00ffd5;
+    --clr6: #002bff;
+    --clr7: #7a00ff;
+    --clr8: #ff00c8;
+    --clr9: #ff0000;
+ 
+   }
+ 
+   .box {
+    border-radius: 35px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     height: 40%;
+     width: 40%;
+     transform: translate(-50%, -50%);
+     z-index: 2;
+     backdrop-filter: blur(8px); /* Chrome and Opera */
+     box-shadow: inset 0 0 0 200px rgba(15, 15, 15, 0.08)
+}
+   
+
+  
+textarea:focus, input:focus{
+    outline: #1581e6;
+    opacity: 0.8;
+    border: #1581e6 solid 2px;
+    
+   
+}
+
+
+.credits {
+    color: white;
+    position: relative;
+    z-index: 3;
+    font-family: sm;
+    font-size: 20px;
+    top: 19%;
+    right: 17.6%;
+    display: inline-block; /* changed from inline-block */
+    /* Removed height and width */
+}
+
+.credits:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    text-decoration: underline;
+}
+h1.credits {
+    caret-color: transparent;
+}
+
+
+

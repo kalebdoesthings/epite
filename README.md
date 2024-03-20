@@ -1,5 +1,6 @@
-# Ultraviolet
+# Epite
 Ultraviolet application
+This Is A Modified Version Of Ultraviolet Just A Different Frontend
 
 [![Deploy to Heroku](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/hyper-hacker/ultraviolet-node)
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/hyper-hacker/ultraviolet-node)
